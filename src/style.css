@@ -1,0 +1,46 @@
+body {
+  font-family: Lato;
+}
+.container {
+  text-align: center;
+  background-color: rgb(61, 177, 197);
+  padding: 10px;
+  border-radius: 6px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+button {
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin: 10px;
+  background-color: tomato;
+  width: 20%;
+}
+@media only screen and (max-width: 450px) {
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  nput {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  button {
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin: 10px;
+    background-color: tomato;
+    width: 30%;
+  }
+}
